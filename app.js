@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         setTimeout(() => {
             toast.classList.remove('show');
-        }, 3000);
+        }, 2500);
     }
 
     // Format date

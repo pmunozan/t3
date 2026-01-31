@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,21 @@
     <meta name="description" content="Aplicación para guardar y ver números almacenados en Supabase">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="card">
-            <h1>✨ Almacén de Números</h1>
+            <h1>Almacén de Números</h1>
             <p class="subtitle">Guarda tus números favoritos</p>
-            
+
             <form id="numberForm" class="number-form">
                 <div class="input-group">
-                    <input 
-                        type="number" 
-                        id="numberInput" 
-                        placeholder="Introduce un número" 
-                        required
-                        step="any"
-                    >
+                    <input type="number" id="numberInput" placeholder="Introduce un número" required step="any">
                     <button type="submit" class="submit-btn">
                         <span>Guardar</span>
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M4 10H16M16 10L12 6M16 10L12 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4 10H16M16 10L12 6M16 10L12 14" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </button>
                 </div>
@@ -50,4 +47,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="app.js"></script>
 </body>
+
 </html>
